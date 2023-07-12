@@ -27,7 +27,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.rpt",
-				"match": "\\b(if|else|or|and|equal|notEqual|SEP|flag|date|subString|amount|multiple)\\b"
+				"match": "\\b(if|else|or|and|equal|notEqual|SEP|flag|date|subString|amount|multiple|map|productName|PRODUCT)\\b"
 			}]
 		},
 		"strings": {
