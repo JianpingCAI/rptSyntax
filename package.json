@@ -1,7 +1,7 @@
 {
   "name": "rpt-syntax",
   "displayName": "rpt Syntax",
-  "description": "TBD",
+  "description": "Syntax highlighting for .rpt file.",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.80.0"
@@ -10,16 +10,30 @@
     "Programming Languages"
   ],
   "contributes": {
-    "languages": [{
-      "id": "rpt",
-      "aliases": ["rpt", "rpt"],
-      "extensions": [".rpt"],
-      "configuration": "./language-configuration.json"
-    }],
-    "grammars": [{
-      "language": "rpt",
-      "scopeName": "source.rpt",
-      "path": "./syntaxes/rpt.tmLanguage.json"
-    }]
+    "languages": [
+      {
+        "id": "rpt",
+        "aliases": [
+          "rpt",
+          "RPT"
+        ],
+        "extensions": [
+          ".rpt"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "rpt",
+        "scopeName": "source.rpt",
+        "path": "./syntaxes/rpt.tmLanguage.json"
+      }
+    ],
+    "configurationDefaults": {
+      "[rpt-syntax]": {
+        "editor.tabSize": 8
+      }
+    }
   }
 }
