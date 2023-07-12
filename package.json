@@ -3,12 +3,21 @@
   "displayName": "rpt Syntax",
   "description": "Syntax highlighting for .rpt file.",
   "version": "0.0.1",
+  "publisher": "JianpingCai",
   "engines": {
-    "vscode": "^1.80.0"
+    "vscode": "^1.76.0"
   },
   "categories": [
     "Programming Languages"
   ],
+  "homepage": "https://github.com/JianpingCAI/rptSyntax/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JianpingCAI/rptSyntax.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JianpingCAI/rptSyntax/issues"
+  },
   "contributes": {
     "languages": [
       {
